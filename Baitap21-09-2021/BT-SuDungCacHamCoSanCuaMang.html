@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Sử dụng các hàm số cơ bản của mảng</title>
 </head>
 <body>
+<script>
+    // Bài 1
+    // let myColor = ["Red","Green","White","Black"];
+    // let myClor2 = myColor.join();
+    // console.log(myClor2);
 
+    // Bài 2
+    let number = prompt("Nhập dãy số: ");
+    let str = number.toString();
+    let result = [str[0]];
+    for (let i = 0; i < str.length; i++) {
+        if ((str[i - 1] % 2 === 0) && (str[i] % 2 === 0)) {
+                result.push("-",str[i]);
+        } else {
+            result.push(str[i]);
+        }
+    } document.write(result.join(''));
+
+
+</script>
 </body>
 </html>
