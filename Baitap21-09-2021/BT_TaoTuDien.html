@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo Từ điển</title>
+</head>
+<body>
+<script>
+    let search = prompt("Nhập Từ Cần Tìm")
+    let b , c ;
+    let englísh = ["White", 'Blue', "Green", "Yellow", "Orange", "Pink", "Gray", "Red"];
+    let vietnamese = ["Trắng", "Xanh da trời", "Xanh lá cây", "Vàng", "Da cam", "Hồng", "Xám", "Đỏ"];
+    for (let e = 0; e <englísh.length ; e++) {
+        b = englísh.indexOf(search)
+        c = vietnamese[b]
+    } document.write("Nghĩa của từ "+ search + " là: "+ c )
+</script>
+</body>
+</html>
