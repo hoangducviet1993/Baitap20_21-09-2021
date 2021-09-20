@@ -9,7 +9,7 @@
     // Bài 1  Viết một chương trình Javascript để nối tất cả các phần tử trong một mảng chuỗi lại với nhau
     let myColor = ["Red", "Green", "White", "Black"];
     let myClor2 = myColor.join();
-    document.write("Bài 1:" + myClor2 + "<br>");
+    document.write("Bài 1: " + myClor2 + "<br>");
 
     // Bài 2: Viết một chương trình nhận một số nhập vào và chèn dấu (-) giữa 2  số chẵn.
     let number = prompt("Nhập dãy số: ");
@@ -22,23 +22,23 @@
             result.push(str[i]);
         }
     }
-    document.write("Bài 2:" + result.join(''));
+    document.write("Bài 2: " + result.join('') + "<br>");
 
     //Bài 3 :Viết một chương trình nhập vào một chuỗi và chuyển các ký tự chữ thường trong chuỗi vừa nhập sang thành dạng chữ hoa.
     let text = "The Quick Brown Fox";
     let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let lower = 'abcdefghijklmnopqrstuvwxyz';
-    let result = [];
+    let result2 = [];
     for (let a = 0; a < text.length; a++) {
         if (UPPER.indexOf(text[a]) !== -1) {
-            result.push(text[a].toLowerCase());
+            result2.push(text[a].toLowerCase());
         } else if (lower.indexOf(text[a]) !== -1) {
-            result.push(text[a].toUpperCase());
+            result2.push(text[a].toUpperCase());
         }else {
-            result.push(text[a]);
+            result2.push(text[a]);
         }
     }
-    document.write(result.join(''));
+    document.write("Bài 3: "+result2.join(''));
 
 
 </script>
