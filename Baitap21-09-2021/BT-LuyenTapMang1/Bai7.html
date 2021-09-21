@@ -5,6 +5,20 @@
     <title>Bài 7</title>
 </head>
 <body>
-
+<input type="text" id="num">
+<button onclick="search()">Search</button>
+<p id="res"></p>
+<script>
+    function search() {
+        let num = parseInt(document.getElementById("num").value);
+        let number = [42, -5, 54, -7, 9, 12, -2, 60, -25, -8];
+        let b =number.indexOf(num);
+//Cách 1 dùng ham index0f :
+        if (b !== -1) {
+           number.splice(b,1)
+        } number.push(0);
+        document.write(number)
+    }
+</script>
 </body>
 </html>
