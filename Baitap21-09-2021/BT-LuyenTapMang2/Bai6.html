@@ -6,7 +6,15 @@
 </head>
 <body>
 <script>
-    let a =prompt()
+    let a = prompt("Nhập chuỗi");
+    b = a.split("");
+    document.write("Có chuỗi là: " +b +"<br>")
+    for (let i = 0; i < b.length; i++) {
+        if(b[i]==="-"){
+            b[i]= "_";
+        }
+    }document.write("Sau khi thay thế '-' thành '_' ta được chuỗi mới là: " +b.join(""));
+
 </script>
 </body>
 </html>
