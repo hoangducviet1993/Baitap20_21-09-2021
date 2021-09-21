@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e627a3ae-6311-43fb-8742-1c31806449f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Baitap21-09-2021/BT-LuyenTapMang1/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baitap21-09-2021/BT-LuyenTapMang1/Bai7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baitap21-09-2021/BT-LuyenTapMang1/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Baitap21-09-2021/BT-LuyenTapMang1/Bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baitap21-09-2021/BT-LuyenTapMang1/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Baitap21-09-2021/BT-LuyenTapMang1/Bai6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Baitap14-09-2021/TH-SukienClickChuot.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Baitap14-09-2021/TH-SukienClickChuot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Baitap15-09-2021/TH-SuDungVongLap-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Baitap15-09-2021/TH-SuDungVongLap-for.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Baitap16-09-2021/test.html" beforeDir="false" />
@@ -57,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632109874018</updated>
       <workItem from="1632109875211" duration="21310000" />
-      <workItem from="1632189176254" duration="4839000" />
+      <workItem from="1632189176254" duration="7828000" />
     </task>
     <servers />
   </component>
